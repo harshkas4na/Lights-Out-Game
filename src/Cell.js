@@ -15,6 +15,7 @@ import "./Cell.css"
  *
  **/
 
+
 class Cell extends Component {
   constructor(props) {
     super(props);
@@ -22,6 +23,8 @@ class Cell extends Component {
   }
 
   handleClick(evt) {
+    
+    
     // call up to the board to flip cells around this cell
     this.props.flipCellsAroundMe();
   }
