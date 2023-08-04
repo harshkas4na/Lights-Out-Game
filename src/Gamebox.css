@@ -1,0 +1,12 @@
+.Gamebox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 21em;
+    height: 21em;
+    padding: 1em;
+    padding-left:16px ;
+    border: 2px solid black;
+    
+  
+}
